@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body id="section">
+    <form action="" method="" id="section_1">
+        <!-- method="post" autocomplete="on" onsubmit="return validform()" -->
+        <section >
+            <h1>Vos Cordonnées :</h1>
+            <label for="fname">Ces informations sont obligatoires pour envoyer le formulaire.</label><br> 
+        </section>
+        <section id="section_2">
+            <article id="box_gauche">
+                <label for="fname">Société :</label><br><br>
+                <label for="fname">Personne à contacter :</label><br><br>
+                <label for="fname">Adresse de l'entreprise :</label><br><br>
+                <label for="fname">Code postal :</label><br><br>
+                <label for="fname">Ville :</label><br><br>
+                <label for="fname">Email :</label><br><br>
+                <label for="fname">Téléphone :</label><br><br>
+            </article>
+            <article id="box_gauche">
+                <input type="text" name="societé" id="Societe" required="required" />
+                <span id="nomSociete_manquant"></span><br><br>
+                <input type="text" name="Personne" id="Personne" /><br><br>
+                <input type="" name="nom" id="Adresse" /><br><br>
+                <input type="text" name="Code_Postal" id="code_postale" /><br><br>
+                <input type="text" name="nom" id="Ville" /><br><br>
+                <input type="email" id="Email" name="email" /><br><br>
+                <input type="tel" name="Téléphone" id="Telephone" /><br><br>
+                <textarea input type="text" class="box" name="" id="selenvtra"
+                    placeholder="Commentaires"></textarea><br><br>
+            </article>
+        </section><br><br>
+        <section id="section_3">
+        <!--  <article class="box_gauche">
+            </article>
+            <article class="box_droit">    
+            </article>-->
+        <input type="submit" value="envoyer" id="formValid">
+        <input type="reset" value="Effacer">
+        </section>
+    </form>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
